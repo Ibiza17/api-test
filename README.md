@@ -100,3 +100,11 @@ This test case verifies that a specific user can be deleted using the DELETE Use
 
 - Status code: 204
 - Response body: None.
+
+## Testing approach:
+
+This is a Postman collection JSON file which describes a test suite for an API. The tests are written using Postman's testing capabilities and are executed using Postman's testing framework.
+
+The approach taken here is a combination of functional testing and integration testing, where each API endpoint is tested to ensure it is functioning correctly. The tests are automated and run through the Postman application. The tests aim to ensure that the API meets its functional requirements, such as returning the expected data, status codes, and that the data is consistent.
+
+The test suite contains tests for the GET, POST, PATCH and DELETE endpoints of the API. The tests ensure that the API returns the correct data and status codes, and that the data is consistent. The tests use environment variables to ensure that data is passed between tests and to ensure the tests are repeatable. The tests also check that the data is in the correct format, and that it is returned in the expected time frame. The approach taken is therefore a comprehensive testing approach that covers the API's functionality and integration with the system.
