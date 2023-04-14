@@ -7,7 +7,6 @@ This repository contains a set of REST API tests using Newman, a command-line to
 Before running these tests, you'll need to install Newman and have access to the sample API. If you haven't already done so, follow these steps:
 
 1. Install Newman by running the following command: `npm install -g newman`.
-2. Start the API by navigating to the directory where it was downloaded and running the following command: `npm start`.
 
 ## Test Cases
 
