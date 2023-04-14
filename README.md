@@ -8,6 +8,15 @@ Before running these tests, you'll need to install Newman and have access to the
 
 1. Install Newman by running the following command: `npm install -g newman`.
 
+## Running the Tests
+
+To run these tests using Newman, follow these steps:
+
+1. Download the collection.json and the env.json files from the repo.
+2. Open a command prompt or terminal window and navigate to the directory where the collection file was downloaded.
+3. Run the following command: `newman run collection.json -e environment.json`, where `environment.json` is a file containing environment variables used in the tests.
+4. After the tests complete, Newman will display the results in the terminal window.
+
 ## Test Cases
 
 The following test cases will be executed using Newman:
@@ -91,12 +100,3 @@ This test case verifies that a specific user can be deleted using the DELETE Use
 
 - Status code: 204
 - Response body: None.
-
-## Running the Tests
-
-To run these tests using Newman, follow these steps:
-
-1. Download the collection.json and the env.json files from the repo.
-2. Open a command prompt or terminal window and navigate to the directory where the collection file was downloaded.
-3. Run the following command: `newman run collection.json -e environment.json`, where `environment.json` is a file containing environment variables used in the tests.
-4. After the tests complete, Newman will display the results in the terminal window.
